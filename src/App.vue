@@ -1,10 +1,10 @@
 <script setup lang="ts">
-import HelloWorld from './components/HelloWorld.vue'
-import TheWelcome from './components/TheWelcome.vue'
+// import HelloWorld from './components/HelloWorld.vue'
+// import TheWelcome from './components/TheWelcome.vue'
 </script>
 
 <template>
-  <header>
+  <!-- <header>
     <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
 
     <div class="wrapper">
@@ -14,11 +14,76 @@ import TheWelcome from './components/TheWelcome.vue'
 
   <main>
     <TheWelcome />
+  </main> -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
+  <header>
+    <div class="header_top">
+      <div class="container">
+        <div class="header_top_inner">
+          <div class="header_top_left">
+            Бесплатная доставка
+          </div>
+          <div class="header_top_right">
+            <div class="header_top_faqs">Faqs</div>
+            <div class="header_top_help">Нужна помощь?</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="header_main">
+      <div class="container">
+        <div class="header_main_inner">
+          <div class="header_main_logo">
+            <img src="./components/icons/logo.png" alt="">
+          </div>
+          <div class="header_main_search">
+            <input type="search" placeholder="Поиск">
+          </div>
+          <div class="header_main_right">
+            иконки
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <nav>
+    <div class="container">
+      <div class="nav_inner">
+        <div class="nav_menu">
+          <div class="full_menu">
+            Полное меню
+          </div>
+          <div class="menu_link">
+            <a href="http://">Главная</a>
+            <a href="http://">Каталог</a>
+            <a href="http://">Специальные предложения</a>
+            <a href="http://">Наши партнеры</a>
+            <a href="http://">О нас</a>
+          </div>
+        </div>
+        <div class="nav_contacts">
+          <div class="nav_contacts_text">Контакты:</div>
+          <div class="nav_contacts_phone">+7(999) 777-7777</div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    
   </main>
+
+
+
 </template>
 
 <style scoped>
-header {
+/* header {
   line-height: 1.5;
 }
 
@@ -43,5 +108,5 @@ header {
     place-items: flex-start;
     flex-wrap: wrap;
   }
-}
+} */
 </style>
