@@ -68,7 +68,7 @@
         </div>
         <div class="nav_contacts">
           <div class="nav_contacts_text">Контакты:</div>
-          <div class="nav_contacts_phone">+7(999) 777-7777</div>
+          <div class="nav_contacts_phone">+7(999) 777-7778</div>
         </div>
       </div>
     </div>
