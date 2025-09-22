@@ -48,8 +48,13 @@ a,
   font-style: normal;
 }
 
+.montserrat {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+}
+
 .container{
-  width: 75%;
+  width: 1540px;
   margin: 0 auto;
 }
 
@@ -139,8 +144,39 @@ nav{
 
 main{
   height: 850px;
-  width: 90%;
+  width: 2000px;
   background-color: #F0F2F3;
   margin: 0 auto;
   border-radius: 0 0 50px 50px;
+}
+.main_inner{
+  display: flex;
+}
+.main_left{
+  width: 50%;
+  padding-top: 250px;
+}
+.main_bigText{
+  color: #272343;
+  font-size: 45px;
+  font-family: 'MyCustomFont', 'Inter', sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-style: bold;
+  vertical-align: bottom;
+}
+.main_littleText{
+  font-weight: 400;
+  font-size: 16px;
+  color: #081D30;
+  font-family: "Montserrat", sans-serif;
+  padding-top: 20px;
+}
+.main_button{
+  margin-top: 20px;
+  width: 259px;
+  height: 52px;
+  background-color: #F54A58;
+  border-radius: 10px;
+  color: #fff;
 }

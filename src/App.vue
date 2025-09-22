@@ -18,6 +18,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
   <header>
     <div class="header_top">
@@ -68,14 +69,31 @@
         </div>
         <div class="nav_contacts">
           <div class="nav_contacts_text">Контакты:</div>
-          <div class="nav_contacts_phone">+7(999) 777-7778</div>
+          <div class="nav_contacts_phone">+7(999) 777-7777</div>
         </div>
       </div>
     </div>
   </nav>
 
   <main>
-    
+    <div class="container">
+      <div class="main_inner">
+        <div class="main_left">
+          <div class="main_bigText">
+            Интерактивные<br>решения для вашего<br>пространства
+          </div>
+          <div class="main_littleText">
+            Откройте мир инновационных решений: интерактивные панели и звуковое оборудование для вашего бизнеса и образователььных учреждений!
+          </div>
+          <div class="main_button">
+            Посмотреть каталог
+          </div>
+        </div>
+        <div class="main_right">
+          <img src="./img/main.svg" alt="">
+        </div>
+      </div>
+    </div>
   </main>
 
 
